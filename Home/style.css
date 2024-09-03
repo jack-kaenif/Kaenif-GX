@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(46, 46, 46);
+}
+
+
+.header{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    background-color: transparent;
+    align-items: center;
+    width: 99%;
+    text-decoration: none;
+}
+
+header .logo{
+    cursor: pointer;
+   margin-right: auto;
+}
+
+header .logo img{
+    height: 90px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo img:hover{
+    transform: scale(1.1);
+}
+
+header .links{
+    list-style: none;
+}
+
+header .links li{
+    display: inline-block;
+    padding: 20px;
+}
+
+header .links li:hover{
+    transform: scale(1.1);
+}
+
+
+header .links a{
+    font-size: 900;
+    color: azure;
+    text-decoration: none;
+}
+
+header .links li a:hover{
+    color: red;
+}
+
+.header .btn button{
+    font-weight: 600;
+    color: #000000;
+    background: #fff;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn button:hover{
+    background-color: firebrick;
+    color: darkgray;
+    transform: scale(1.1);
+}
+
+.header .btn2 button{
+    font-weight: 600;
+    color: #000000;
+    background: #fff;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn2 button:hover{
+    background-color: firebrick;
+    color: darkgray;
+    transform: scale(1.1);
+}
+
+.centered{
+    color: black;
+    text-align: center;
+}
+
+
+
+.menu1{
+    top: 0%;
+    background-image: url(img/Background.jpg);
+    background-size: cover;
+    height: 60rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
